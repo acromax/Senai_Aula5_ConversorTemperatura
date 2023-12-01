@@ -1,11 +1,8 @@
 # aula 5 de Python Turma 21 - 29/11/2023
 # programa para converter graus celsius em fahrenheit
 
-# Funções para serem chamadas mais tarde
-def celsius_para_fahrenheit (celsius):
-    return (9 * celsius / 5) + 32 # fórmula para converter celsius em fahrenheit
-def fahrenheit_para_celsius (fahrenheit):
-    return ((fahrenheit - 32) / 9) * 5 # fórmula para converter fahrenheit em celsius
+# importando funções de outro arquivo
+from funcoesConversorTemperatura import celsius_para_fahrenheit, fahrenheit_para_celsius
 
 # Apresentação
 print('\n\t\t\t -- Conversor de Temperatura --\n')
